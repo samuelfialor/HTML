@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <
+<body>
+<!-- This is a comment, it is useful it helps us to locate our head section-->
+<h4>this is the head section </h4>
+<!--this is a comment, it is useful it is helps us to locate our paragraph section-->
+<p align="center">this is my paragraph section</p>
+
+<p>ax<sup>2</sup>+ bx c = 0</p>
+<p>x<sup>2</sup>+ Y <sup>2</sup> = C</p>
+</body>
+</html>
