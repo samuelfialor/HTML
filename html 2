@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <
+    <head>a
+        <met charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Image</title>
+</head>
 <body>
 <!-- This is a comment, it is useful it helps us to locate our head section-->
 <h4>this is the head section </h4>
@@ -11,5 +13,6 @@
 
 <p>ax<sup>2</sup>+ bx c = 0</p>
 <p>x<sup>2</sup>+ Y <sup>2</sup> = C</p>
+   
 </body>
 </html>
