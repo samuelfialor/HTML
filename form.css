@@ -1,0 +1,51 @@
+body{
+    background-image: url("b2.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+form{
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #89bbb4;
+    border: 1px solid #cccccc;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"]{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+textarea{
+    width: 97%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"]{
+    background-color: #3e8e76;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: #4caf89;
+} 
