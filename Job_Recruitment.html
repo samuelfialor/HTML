@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Recruitment</title>
+  <link rel="stylesheet" href="Job_Recruitment.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Join Our Team</h1>
+    <div class="job-listing">
+      <h2>Frontend Developer</h2>
+      <p>Build responsive web interfaces using HTML, CSS, and JavaScript.</p>
+      <button onclick="apply('Frontend Developer')">Apply Now</button>
+    </div>
+
+    <div class="job-listing">
+      <h2>Backend Developer</h2>
+      <p>Develop APIs and manage databases using Node.js and MongoDB.</p>
+      <button onclick="apply('Backend Developer')">Apply Now</button>
+    </div>
+
+    <div class="job-listing">
+      <h2>UI/UX Designer</h2>
+      <p>Design intuitive user experiences and wireframes for web apps.</p>
+      <button onclick="apply('UI/UX Designer')">Apply Now</button>
+    </div>
+
+    <div id="confirmation" class="hidden">
+      <h2>✅ Application Received!</h2>
+      <p id="jobTitle"></p>
+    </div>
+  </div>
+
+  <script src="Job_Recruitment.js"></script>
+</body>
+</html>
