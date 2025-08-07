@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order & Pay</title>
+  <link rel="stylesheet" href="phone_shop.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📦 Place Your Order</h1>
+    <form id="orderForm">
+      <label for="product">Product:</label>
+      <select id="product" required>
+        <option value="">--Select--</option>
+        <option value="phone">Smartphone - $300</option>
+        <option value="tablet">Tablet - $200</option>
+        <option value="accessory">Accessory - $50</option>
+      </select>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" min="1" value="1" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+
+      <button type="submit">Pay Now</button>
+    </form>
+
+    <div id="confirmation" class="hidden">
+      <h2>✅ Payment Successful!</h2>
+      <p>Thank you for your order.</p>
+    </div>
+  </div>
+
+  <script src="phone_shop.js"></script>
+</body>
+</html>
